@@ -1,12 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class GemCollector : MonoBehaviour {
-    void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Player")) { // Ensure avatar has "Player" tag
+public class GemCollector : MonoBehaviour
+{
+    public CountManager countManager; // Reference to CountManager
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
             Destroy(gameObject);
-            // Add score update logic here
+            if (countManager != null)
+            {
+                countManager.IncrementCount();
+            }
         }
     }
 }
+

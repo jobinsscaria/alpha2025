@@ -1,11 +1,15 @@
 using UnityEngine;
-using TMPro; // Import the TextMeshPro namespace
+using TMPro;
+using System.Collections;
 
 public class CountManager : MonoBehaviour
 {
     private int count;
-    [SerializeField] private TMP_Text countText; // Use TMP_Text for TextMeshPro
+    [SerializeField] private TMP_Text countText;
     [SerializeField] private GameObject winTextObject;
+
+    // Add reference to your navigation script
+    [SerializeField] private NavigationScript navScript; 
 
     void Start()
     {
@@ -19,6 +23,11 @@ public class CountManager : MonoBehaviour
     {
         count++;
         SetCountText();
+
+        if (count >= 1)
+        {
+            StartCoroutine(HandleWinCondition());
+        }
     }
 
     private void SetCountText()
@@ -26,7 +35,28 @@ public class CountManager : MonoBehaviour
         if (countText != null)
             countText.text = "Count: " + count.ToString();
 
-        if (count >= 12 && winTextObject != null)
+        // Update win text activation
+        if (count >= 20 && winTextObject != null)
             winTextObject.SetActive(true);
+    }
+
+    private IEnumerator HandleWinCondition()
+    {
+        // Show win text for 2 seconds
+        yield return new WaitForSeconds(2f);
+
+        // Trigger level change through navigation script
+        if(navScript != null)
+        {
+            navScript.LoadNextLevel();
+        }
+        else
+        {
+            Debug.LogError("NavigationScript reference missing!");
+        }
+        
+        // Optional: Reset counter if staying in same scene
+        // count = 0;
+        // winTextObject.SetActive(false);
     }
 }

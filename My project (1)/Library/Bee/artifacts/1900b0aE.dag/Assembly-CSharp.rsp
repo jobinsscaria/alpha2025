@@ -381,6 +381,7 @@
 "Assets/KAT/SCRIPT/CountManager.cs"
 "Assets/KAT/SCRIPT/GemCollector.cs"
 "Assets/KAT/SCRIPT/MountainClimb.cs"
+"Assets/KAT/SCRIPT/NavigationScript.cs"
 "Assets/Main Menu/Assets/Animated Fantasy Planet/Demo/Script/LookCamera.cs"
 "Assets/Scripts/CoinCollection.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

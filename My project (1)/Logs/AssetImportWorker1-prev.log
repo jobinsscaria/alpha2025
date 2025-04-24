@@ -15,7 +15,7 @@ C:/UNITY/A3/My project (1)
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51632
+52096
 Successfully changed project path to: C:/UNITY/A3/My project (1)
 C:/UNITY/A3/My project (1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/UNITY/A3/My project (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6944] Host "[IP] 192.168.43.193 [Port] 0 [Flags] 2 [Guid] 1307699138 [EditorId] 1307699138 [Version] 1048832 [Id] WindowsEditor(7,Kturi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20700] Host "[IP] 172.18.19.74 [Port] 0 [Flags] 2 [Guid] 2801312225 [EditorId] 2801312225 [Version] 1048832 [Id] WindowsEditor(7,Kturi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6944] Host "[IP] 192.168.43.193 [Port] 0 [Flags] 2 [Guid] 1307699138 [EditorId] 1307699138 [Version] 1048832 [Id] WindowsEditor(7,Kturi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20700] Host "[IP] 172.18.19.74 [Port] 0 [Flags] 2 [Guid] 2801312225 [EditorId] 2801312225 [Version] 1048832 [Id] WindowsEditor(7,Kturi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 137.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 222.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,51 +67,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.017003 seconds.
+Registered in 0.026563 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 127.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 190.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.225 seconds
+- Completed reload, in  1.724 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1225ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (1725ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (147ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1240ms)
+			LoadAssemblies (192ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
+			SetupTypeCache (295ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (501ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (708ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (105ms)
+				InitializePlatformSupportModulesInManaged (123ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011519 seconds.
+Registered in 0.022336 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\UNITY\A3\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\UNITY\A3\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -119,46 +119,46 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 338.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 137.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.618 seconds
+- Completed reload, in  2.058 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3619ms)
-		BeginReloadAssembly (189ms)
+	ReloadAssembly (2059ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (3217ms)
-			LoadAssemblies (256ms)
+		EndReloadAssembly (1695ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1081ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (283ms)
-			SetupLoadedEditorAssemblies (1319ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (953ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (79ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (338ms)
-				BeforeProcessingInitializeOnLoad (178ms)
-				ProcessInitializeOnLoadAttributes (676ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (608ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3851 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (95.6 KB). Loaded Objects now: 4331.
-Memory consumption went from 153.8 MB to 153.7 MB.
-Total: 4.947700 ms (FindLiveObjects: 0.574800 ms CreateObjectMapping: 0.354800 ms MarkObjects: 3.717600 ms  DeleteObjects: 0.292200 ms)
+Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (166.3 KB). Loaded Objects now: 4501.
+Memory consumption went from 162.1 MB to 161.9 MB.
+Total: 4.743300 ms (FindLiveObjects: 0.374300 ms CreateObjectMapping: 0.156100 ms MarkObjects: 4.041300 ms  DeleteObjects: 0.167200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,7 +172,185 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 230963.704668 seconds.
-  path: Assets/KAT/Vulcan_Scene.unity
-  artifactKey: Guid(ab4c077e26d2d954fa6c9c18a902778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KAT/Vulcan_Scene.unity using Guid(ab4c077e26d2d954fa6c9c18a902778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3a891e2a8c62cad6fc8a739e3f133c') in 0.023715 seconds 
+  Time since last request: 246376.353502 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial.mat
+  artifactKey: Guid(580d7e954bbff174794836248c2cc077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial.mat using Guid(580d7e954bbff174794836248c2cc077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b9312d1103f4978068264e4db3c87b') in 0.466559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Materials/Gradient Pallete.png
+  artifactKey: Guid(fdc9284e7f7d7be488f34ed803e0c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Materials/Gradient Pallete.png using Guid(fdc9284e7f7d7be488f34ed803e0c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd7dd1df3cacb958b557e315c44019a') in 0.132044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Pink.mat
+  artifactKey: Guid(20c593a79fdf4ef428dca41cc02d4628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Pink.mat using Guid(20c593a79fdf4ef428dca41cc02d4628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de23953f278ca7b5620df42fedb0476e') in 0.149075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.588410 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/5SideDiamond.prefab
+  artifactKey: Guid(f9368726f996fae4a9cedf84c01a2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/5SideDiamond.prefab using Guid(f9368726f996fae4a9cedf84c01a2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9510ec54a6c28bae9dc7b09b10f909c') in 0.106586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Clock.prefab
+  artifactKey: Guid(d2275fc619142e94583cd06b9f01e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Clock.prefab using Guid(d2275fc619142e94583cd06b9f01e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bba46c6abb5e0788ead81f3415086a') in 0.129522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GoldBar.prefab
+  artifactKey: Guid(744d1ae3c9575e3499e29a4b6f9f41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GoldBar.prefab using Guid(744d1ae3c9575e3499e29a4b6f9f41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597fc381c60f7f76fff8e3357d5d4681') in 0.101291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/RedPill.prefab
+  artifactKey: Guid(159a122a2346fae4fb92f428464c2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/RedPill.prefab using Guid(159a122a2346fae4fb92f428464c2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7c5731f3bbb389ba6a14c71ccebf81') in 0.056139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/SpeedChevBlue.prefab
+  artifactKey: Guid(19b7e95a091652640b4df605bec6a161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/SpeedChevBlue.prefab using Guid(19b7e95a091652640b4df605bec6a161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b20e5ecbc95d785be4beb7760c2c56') in 0.058447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Hexagon.prefab
+  artifactKey: Guid(feec2bd3b82c34243b4e7b55a9ee64b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Hexagon.prefab using Guid(feec2bd3b82c34243b4e7b55a9ee64b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cd7b2919e043b909e87998278f5c69') in 0.053862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarGem3.prefab
+  artifactKey: Guid(c51c431c1c28a7b4082c610fc0aa0a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarGem3.prefab using Guid(c51c431c1c28a7b4082c610fc0aa0a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a390e453d5f459da1d9af71ae58068') in 0.146576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Magnet.prefab
+  artifactKey: Guid(50e260f821baa56419af96b848301e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Magnet.prefab using Guid(50e260f821baa56419af96b848301e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6aa72965b21a2c9fab2ba06d98990c') in 0.078115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarGem2.prefab
+  artifactKey: Guid(5151591354fd80f448e91914496d97d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarGem2.prefab using Guid(5151591354fd80f448e91914496d97d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16e34eb7e51d609c809b22a939cda3e') in 0.080463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Shield.prefab
+  artifactKey: Guid(a1614f0cf649e3a4e894d20bda9008e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Shield.prefab using Guid(a1614f0cf649e3a4e894d20bda9008e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c207da5760589f34b41afc7ed7e807e') in 0.084295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GreenPotion.prefab
+  artifactKey: Guid(a610c52de611e244dbe9b6a800cf193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GreenPotion.prefab using Guid(a610c52de611e244dbe9b6a800cf193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f67ea3afbe87a8127045198221f346') in 0.168352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/HeartGem.prefab
+  artifactKey: Guid(7c857df6f3a0c364997001a2dc84dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/HeartGem.prefab using Guid(7c857df6f3a0c364997001a2dc84dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41145533aac4fee19534064cfaa290a') in 0.119333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarCoin.prefab
+  artifactKey: Guid(a73eca55382651c449497eca9a2be0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarCoin.prefab using Guid(a73eca55382651c449497eca9a2be0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c834fcd8c9b728bf2e29f1e234f71dc5') in 0.069279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GreenVial.prefab
+  artifactKey: Guid(66bef5fa6a4dd774284933f92028f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GreenVial.prefab using Guid(66bef5fa6a4dd774284933f92028f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f9d3299859a980ba1cb8f90fc2578f') in 0.159603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GreenPill.prefab
+  artifactKey: Guid(d5e620ba8ae388440bd7e0547052ac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GreenPill.prefab using Guid(d5e620ba8ae388440bd7e0547052ac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d15786ab890a12ddcaca5b08f5731df') in 0.170607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/BluePill.prefab
+  artifactKey: Guid(48853cd3cc24c284d8a5333395c20ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/BluePill.prefab using Guid(48853cd3cc24c284d8a5333395c20ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a589a304aae2ff3c78768baa3800e018') in 0.110654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Diamondo.prefab
+  artifactKey: Guid(5a2ef7db5b7c1db4a8adf9e71ea2e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Diamondo.prefab using Guid(5a2ef7db5b7c1db4a8adf9e71ea2e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf8cabc27624ce12f88c30950990bcf') in 0.073848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Spiral.prefab
+  artifactKey: Guid(eebd8dd2296babd41a969a47c1590127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Spiral.prefab using Guid(eebd8dd2296babd41a969a47c1590127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2f091cf58a7125c7692be9b3fa2207') in 0.081741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/SpeedChevYellow.prefab
+  artifactKey: Guid(84b95e80250efd2408969492c3002afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/SpeedChevYellow.prefab using Guid(84b95e80250efd2408969492c3002afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fb085dafd508b1a88ce35fef9b53d7') in 0.060760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Heart.prefab
+  artifactKey: Guid(af9d1131c788d454fa7dae4544fa99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Heart.prefab using Guid(af9d1131c788d454fa7dae4544fa99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f16b4241c278d4a6f6343bac02fd3d') in 0.157972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Time.prefab
+  artifactKey: Guid(05c1bb08d5c7e3b40a87536483a89f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Time.prefab using Guid(05c1bb08d5c7e3b40a87536483a89f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f129ddda298d8dc1c316dc94acf635a') in 0.140221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Trophy.prefab
+  artifactKey: Guid(3f2245bee0a16594fa5461000f35ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Trophy.prefab using Guid(3f2245bee0a16594fa5461000f35ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde219e49512914d849032c8c26f5124') in 0.078511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GoldPile.prefab
+  artifactKey: Guid(61c7dcd8337158a468821e9b631f2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/GoldPile.prefab using Guid(61c7dcd8337158a468821e9b631f2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c29984f68e21dd4a229bc4d57a4781') in 0.071797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/FirstAid.prefab
+  artifactKey: Guid(e5c1443d2315194448b2e377f622f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/FirstAid.prefab using Guid(e5c1443d2315194448b2e377f622f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5cfa91891169b520e5cce26884c304') in 0.077378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/SphereGem2.prefab
+  artifactKey: Guid(50e7064084f724541b538851733cd3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/SphereGem2.prefab using Guid(50e7064084f724541b538851733cd3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50347c59a913ebedc988b1a0bd9b401') in 0.166141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarGem1.prefab
+  artifactKey: Guid(9c6032bc7284a5146a9b61081bf3c510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BTM_Assets/BTM_Items_Gems/Prefabs/StarGem1.prefab using Guid(9c6032bc7284a5146a9b61081bf3c510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e6d5bcb85c616e1b543b7efdce4e53') in 0.090099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.217269 seconds.
+  path: Assets/Jake/Assets/New Terrain.asset
+  artifactKey: Guid(e1e5b66351d95a64e9b1a67519cee8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jake/Assets/New Terrain.asset using Guid(e1e5b66351d95a64e9b1a67519cee8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Rocks_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree SandPit_Collision must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Rocks couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree Rocks_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '05e890bca21b33c9f0dffad37f6df7e4') in 0.256613 seconds 

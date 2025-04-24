@@ -1,10 +1,6 @@
 ﻿
-using UnityEngine.SceneManagement;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor.VersionControl;
 using UnityEngine;
-using TMPro;
 
 /*
     This file has a commented version with details about how each line works. 
@@ -45,8 +41,6 @@ public class ThirdPersonController : MonoBehaviour
     bool inputJump;
     bool inputCrouch;
     bool inputSprint;
-   
-   
 
     Animator animator;
     CharacterController cc;
@@ -60,8 +54,6 @@ public class ThirdPersonController : MonoBehaviour
         // Message informing the user that they forgot to add an animator
         if (animator == null)
             Debug.LogWarning("Hey buddy, you don't have the Animator component in your player. Without it, the animations won't work.");
-
-
     }
 
 
@@ -204,15 +196,5 @@ public class ThirdPersonController : MonoBehaviour
             isJumping = false;
         }
     }
-void OnTriggerEnter(Collider other) 
-{
-    if (other.gameObject.CompareTag("PickUp")) 
-    {
-        other.gameObject.SetActive(false);
-    }
-}
-
 
 }
-
-

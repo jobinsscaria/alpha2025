@@ -14,7 +14,7 @@ public class CoinCollection : MonoBehaviour
         if(other.transform.tag == "Gem")
         {
             Gem++;
-            coinText.text = "Gem Count: " + Gem.ToString();
+            coinText.text = "Gem Count: " + Gem.ToString() + "/20";
             Debug.Log(Gem);
             Destroy(other.gameObject);
         }

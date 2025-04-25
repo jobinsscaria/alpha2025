@@ -1,6 +1,8 @@
-﻿
+﻿using UnityEngine;
+
+#if UNITY_EDITOR
 using UnityEditor.VersionControl;
-using UnityEngine;
+#endif
 
 /*
     This file has a commented version with details about how each line works. 
@@ -54,6 +56,11 @@ public class ThirdPersonController : MonoBehaviour
         // Message informing the user that they forgot to add an animator
         if (animator == null)
             Debug.LogWarning("Hey buddy, you don't have the Animator component in your player. Without it, the animations won't work.");
+
+        #if UNITY_EDITOR
+        // Example usage of VersionControl (only runs in the editor)
+        //Debug.Log("Running in Unity Editor");
+        #endif
     }
 
 

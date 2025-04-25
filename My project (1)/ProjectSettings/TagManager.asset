@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PickUp
   - Gem
+  - CountManager
+  - CountManagerObject
   layers:
   - Default
   - TransparentFX

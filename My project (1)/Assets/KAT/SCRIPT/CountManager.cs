@@ -8,8 +8,8 @@ public class CountManager : MonoBehaviour
     [SerializeField] private TMP_Text countText;
     [SerializeField] private GameObject winTextObject;
 
-    // Add reference to your navigation script
-    [SerializeField] private NavigationScript navScript; 
+    public string nextSceneName; // Name of the scene to load
+    public int requiredGemCount = 20; // Number of gems needed to trigger the change
 
     void Start()
     {
@@ -23,11 +23,6 @@ public class CountManager : MonoBehaviour
     {
         count++;
         SetCountText();
-
-        if (count >= 1)
-        {
-            StartCoroutine(HandleWinCondition());
-        }
     }
 
     private void SetCountText()
@@ -35,28 +30,19 @@ public class CountManager : MonoBehaviour
         if (countText != null)
             countText.text = "Count: " + count.ToString();
 
-        // Update win text activation
-        if (count >= 20 && winTextObject != null)
+        // Show win text when enough gems are collected
+        if (count >= requiredGemCount && winTextObject != null)
             winTextObject.SetActive(true);
+
+        // Change scene when enough gems are collected
+        if (count >= requiredGemCount)
+        {
+            LoadNextLevel();
+        }
     }
 
-    private IEnumerator HandleWinCondition()
+    public void LoadNextLevel()
     {
-        // Show win text for 2 seconds
-        yield return new WaitForSeconds(2f);
-
-        // Trigger level change through navigation script
-        if(navScript != null)
-        {
-            navScript.LoadNextLevel();
-        }
-        else
-        {
-            Debug.LogError("NavigationScript reference missing!");
-        }
-        
-        // Optional: Reset counter if staying in same scene
-        // count = 0;
-        // winTextObject.SetActive(false);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
     }
 }
